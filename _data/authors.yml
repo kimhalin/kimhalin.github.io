@@ -13,7 +13,7 @@ author:
 
   # This photo will be used in the about section
   picture:
-    path:            /images/me.jpg
+    path:            /_site/assets/img/me.JPG
     # srcset is optional, but can be used to provide higher res versions for retina displays
     # srcset:
     #   1x:            assets/img/me.jpg
