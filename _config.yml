@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               세상에서 제일 빠른 거북이
 
 # A list of keywords for your blog
 keywords:              []
@@ -50,7 +50,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             TIL
-    url:               /TIL/
+    url:               /til/
   - title:             Example
     url:               /example/
   - title:             Documentation
