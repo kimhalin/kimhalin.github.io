@@ -1,6 +1,6 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
-layout: list
+layout: page
 
 # The title of the tag's page.
 title: Algorithm
@@ -18,4 +18,9 @@ description: >
 # Exclude this example category from the sitemap.
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
+permalink: /algorithm/
 ---
+
+* [Greedy]{:.heading.flip-title} --- 그리디 알고리즘
+
+[greedy]: greedy.md
