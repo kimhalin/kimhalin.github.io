@@ -23,4 +23,4 @@ permalink: /algorithm/
 
 * [Greedy]{:.heading.flip-title} --- 그리디 알고리즘
 
-[greedy]: /greedy
+[greedy]: greedy.md
