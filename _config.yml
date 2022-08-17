@@ -51,8 +51,10 @@ author:
 menu:
   - title:             TIL
     url:               /til/
-  - title:             Example
-    url:               /example/
+  # - title:             Example
+  #   url:               /example/
+  - title:             Algorithm
+    url:               /algorithm/
   - title:             Documentation
     url:               /docs/
   - title:             About
