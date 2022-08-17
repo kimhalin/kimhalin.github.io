@@ -10,15 +10,11 @@ sitemap: false
 hide_last_modified: true
 ---
 큰 수의 법칙 - 이코테
-
-
-
-
-
-
-# 큰 수의 법칙 - 이코테
-
 Chapter 2 - Greedy 알고리즘
+
+
+
+
 
 ## 큰 수의 법칙
 
