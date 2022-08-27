@@ -55,6 +55,8 @@ menu:
   #   url:               /example/
   - title:             Algorithm
     url:               /algorithm/
+  - title:             Project
+    url:               /project/
   - title:             Documentation
     url:               /docs/
   - title:             About
