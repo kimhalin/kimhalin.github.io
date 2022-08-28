@@ -56,7 +56,7 @@ menu:
   - title:             Algorithm
     url:               /algorithm/
   - title:             프로젝트
-    url:               /project/
+    url:               /_project/
   - title:             Documentation
     url:               /docs/
   - title:             About
