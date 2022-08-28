@@ -1,7 +1,7 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: page
-category: Myproject
+category: myproject
 # The title of the tag's page.
 title: DoodleDoodle
 

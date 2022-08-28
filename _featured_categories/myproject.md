@@ -10,7 +10,7 @@ slug: myproject
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-진행하고 있는, 진행했던 프로젝트 기록 공간입니다 !🖍
+ 진행하고 있는, 진행했던 프로젝트 기록 공간입니다 !🖍
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
