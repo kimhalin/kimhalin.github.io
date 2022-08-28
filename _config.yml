@@ -42,8 +42,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Kim Halin
+  email:               halin130@naver.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -55,8 +55,8 @@ menu:
   #   url:               /example/
   - title:             Algorithm
     url:               /algorithm/
-  - title:             프로젝트
-    url:               /_project/
+  - title:             My Project
+    url:               /myproject/
   - title:             Documentation
     url:               /docs/
   - title:             About
