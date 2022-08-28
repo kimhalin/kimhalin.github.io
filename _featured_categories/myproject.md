@@ -22,4 +22,4 @@ sitemap: false
 
 * [DoodleDoodle]{:.heading.flip-title} --- 사용자가 그린 그림을 맞추는 AI 웹사이트
 
-[DoodleDoodle]: ./doodledoodle.md
+[DoodleDoodle]: ./doodle
