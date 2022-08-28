@@ -3,7 +3,7 @@
 layout: page
 
 # The title of the tag's page.
-title: My Project
+title: Myproject
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: myproject

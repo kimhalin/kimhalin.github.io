@@ -1,9 +1,9 @@
 ---
 # Featured tags need to have either the `list` or `grid` layout (PRO only).
 layout: page
-category: My Project
+category: Myproject
 # The title of the tag's page.
-title: Doodle
+title: DoodleDoodle
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: doodle
