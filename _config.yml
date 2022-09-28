@@ -51,8 +51,8 @@ author:
 menu:
   - title:             TIL
     url:               /til/
-  # - title:             Example
-  #   url:               /example/
+  - title:             Blog
+    url:               /blog/
   - title:             Algorithm
     url:               /algorithm/
   - title:             Myproject
