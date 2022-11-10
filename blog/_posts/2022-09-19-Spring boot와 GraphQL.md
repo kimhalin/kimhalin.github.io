@@ -15,7 +15,7 @@ hide_last_modified: true
 
 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/570ea375-9fee-43aa-8818-40cd72400957/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/75435113/201112202-b61e22cd-edec-4ece-a289-93f42ace53c1.png)
 
 Spring boot와 GraphQL을 사용해 아주 간단한 게시판 CRUD를 작성해봤다.
 
