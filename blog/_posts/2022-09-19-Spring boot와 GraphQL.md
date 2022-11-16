@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: Spring boot와 GraphQL
 # description: >
 #   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.

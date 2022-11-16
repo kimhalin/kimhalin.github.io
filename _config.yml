@@ -55,8 +55,6 @@ menu:
     url:               /blog/
   - title:             Algorithm
     url:               /algorithm/
-  - title:             Myproject
-    url:               /myproject/
   - title:             Documentation
     url:               /docs/
   - title:             About
