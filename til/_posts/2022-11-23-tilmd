@@ -1,0 +1,75 @@
+---
+layout: post
+title: 2022-11-23 TIL
+# description: >
+#   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+sitemap: false
+hide_last_modified: true
+---
+2022-11-23 TIL
+
+
+
+
+
+
+
+
+## @PostConstruct
+
+의존성 주입이 이루어진 후 초기화를 수행, 이 어노테이션은 다른 리소스에서 호출되지 않아도 수행된다.
+
+### 왜 사용할까?
+
+1) 의존성 주입이 끝나고 실행이 보자되므로 빈의 초기화에 대해서 걱정할 필요가 없다.
+
+2) bean의 생애주기에서 오직 한 번만 수행된다는 것을 보장한다.
+
+## DTO에 관해서 ..
+
+프로젝트를 진행하다 항상 좀 찝찝하게 남았던 의문을 드디어 해결했다.
+
+[https://www.inflearn.com/questions/151711](https://www.inflearn.com/questions/151711)
+
+1. 멤버 변수 하나 정도 차이가 나는 것도 매번 DTO를 별도로 만들어야 할까?
+    
+    **→ 정석은 별도로 만들어서 데이터를 바인딩 시키는 것! 하지만 프로젝트가 단순하다면 실용적인 관점에서 적절하게 타협하는 것도 방법**
+    
+
+1. Repostiory를 만들 때 JpaRepostiory<>에서 기본으로 제공하는 함수의 경우 return type이 엔티티 타입으로 반환이 된다. 엔티티를 노출시키지 말아야하는데 어떻게 해야할까?
+    
+    **→ 엔티티 노출은 컨트롤러에서 API로 데이터를 반환할 때 엔티티를 직접 반환하지 말라는 뜻, 그러므로 서비스나 리포지토리를 호출해서 엔티티를 반환 받는 것은 괜찮다 👍**
+    
+
+## meta-annotation
+
+다른 annotation에서도 사용되는 annotation의 경우를 말하며 custom-annotation을 생성할 때 주로 사용한다. 예를 들어서 @Service는 bean으로 등록하기 위해 @Component를 내포하고 있는 형태로, @Component가 여기서는 meta-annotation이다.
+
+### @Target
+
+Java compiler가 annotation이 어디에 적용될지 결정하기 위해 사용함
+
+아래 중 ElementType.TYPE 같은 경우에는 타입이 선언될 때 사용한다는 의미이다.
+
+```java
+ElementType.PACKAGE : 패키지 선언
+ElementType.TYPE : 타입 선언
+ElementType.ANNOTATION_TYPE : 어노테이션 타입 선언
+ElementType.CONSTRUCTOR : 생성자 선언
+ElementType.FIELD : 멤버 변수 선언
+ElementType.LOCAL_VARIABLE : 지역 변수 선언
+ElementType.METHOD : 메서드 선언
+ElementType.PARAMETER : 전달인자 선언
+ElementType.TYPE_PARAMETER : 전달인자 타입 선언
+ElementType.TYPE_USE : 타입 선언
+```
+
+### @Retention
+
+Annotation이 실제로 적용되고 유지되는 범위를 의미
+
+```java
+RetentionPolicy.RUNTIME
+RetentionPolicy.CLASS
+RetentionPolicy.SOURCE
+```
